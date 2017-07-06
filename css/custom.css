@@ -1,0 +1,69 @@
+html,body{
+height:100%;
+width:100%;
+}
+.container{
+display: -webkit-flex;
+display:flex;	
+}
+/* 文字垂直置中 */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 文字大小 */
+.text-vcenter h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* 第1個區塊用 */
+#home {
+  background: #ffffff;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* 拉大間距 */
+.top-bottom-pad {
+  padding: 70px 0;
+}
+/*頂部留白*/
+body{
+	padding-top: 125px;
+}
+/* 背景顏色與字的顏色*/
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+/* 圖示字型的大小與外觀 */
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+/* 第5個區塊中使用 */
+#gmap{
+   height:500px;
+}
+.navbar{
+	line-height:125px;
+	height:125px;
+}
